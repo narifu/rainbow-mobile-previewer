@@ -1,0 +1,120 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@3.10.10
+3 info using node@v6.9.3
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   escapedName: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/Users/tony/Documents/mobile/demo/node_modules/rainbow-mobile-preview',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /Users/tony/.npm/rainbow-mobile-preview/2.0.2/package.tgz not in flight; packing
+9 verbose correctMkdir /Users/tony/.npm correctMkdir not in flight; initializing
+10 info lifecycle rainbow-mobile-preview@2.0.2~prepublish: rainbow-mobile-preview@2.0.2
+11 silly lifecycle rainbow-mobile-preview@2.0.2~prepublish: no script for prepublish, continuing
+12 verbose tar pack [ '/Users/tony/.npm/rainbow-mobile-preview/2.0.2/package.tgz',
+12 verbose tar pack   '/Users/tony/Documents/mobile/demo/node_modules/rainbow-mobile-preview' ]
+13 verbose tarball /Users/tony/.npm/rainbow-mobile-preview/2.0.2/package.tgz
+14 verbose folder /Users/tony/Documents/mobile/demo/node_modules/rainbow-mobile-preview
+15 verbose addLocalTarball adding from inside cache /Users/tony/.npm/rainbow-mobile-preview/2.0.2/package.tgz
+16 verbose correctMkdir /Users/tony/.npm correctMkdir not in flight; initializing
+17 silly cache afterAdd rainbow-mobile-preview@2.0.2
+18 verbose afterAdd /Users/tony/.npm/rainbow-mobile-preview/2.0.2/package/package.json not in flight; writing
+19 verbose correctMkdir /Users/tony/.npm correctMkdir not in flight; initializing
+20 verbose afterAdd /Users/tony/.npm/rainbow-mobile-preview/2.0.2/package/package.json written
+21 silly publish { _args: [ [ [Object], '/Users/tony/Documents/mobile/demo' ] ],
+21 silly publish   _from: '.',
+21 silly publish   _id: 'rainbow-mobile-preview@2.0.2',
+21 silly publish   _inCache: true,
+21 silly publish   _location: '/rainbow-mobile-preview',
+21 silly publish   _phantomChildren: {},
+21 silly publish   _requested:
+21 silly publish    { raw: 'rainbow-mobile-preview@^2.0.0',
+21 silly publish      scope: null,
+21 silly publish      escapedName: 'rainbow-mobile-preview',
+21 silly publish      name: 'rainbow-mobile-preview',
+21 silly publish      rawSpec: '^2.0.0',
+21 silly publish      spec: '>=2.0.0 <3.0.0',
+21 silly publish      type: 'range' },
+21 silly publish   _requiredBy: [ '/' ],
+21 silly publish   _resolved: 'http://repo.ebaotech.com:80/artifactory/api/npm/npm-all/rainbow-mobile-preview/-/rainbow-mobile-preview-2.0.2.tgz',
+21 silly publish   _shasum: 'abe21e8a4d514d40e819b3c193936ac26a7eecc4',
+21 silly publish   _shrinkwrap: null,
+21 silly publish   _spec: 'rainbow-mobile-preview@^2.0.0',
+21 silly publish   _where: '/Users/tony/Documents/mobile/demo',
+21 silly publish   author: { name: 'RainbowUI Team' },
+21 silly publish   dependencies: {},
+21 silly publish   description: 'Rainbow Mobile',
+21 silly publish   devDependencies: {},
+21 silly publish   dist:
+21 silly publish    { tarball: 'http://repo.ebaotech.com:80/artifactory/api/npm/npm-all/rainbow-mobile-preview/-/rainbow-mobile-preview-2.0.2.tgz',
+21 silly publish      shasum: '8f848291cd9b0c73e021951e08a1658e0b02e45b' },
+21 silly publish   keywords: [],
+21 silly publish   main: './src/index.js',
+21 silly publish   name: 'rainbow-mobile-preview',
+21 silly publish   optionalDependencies: {},
+21 silly publish   publishConfig: { registry: 'http://repo.ebaotech.com/artifactory/api/npm/npm-all' },
+21 silly publish   readme: 'ERROR: No README data found!',
+21 silly publish   repository:
+21 silly publish    { type: 'git',
+21 silly publish      url: 'https://oss.ebaotech.com/rainbow-mobile/core.git' },
+21 silly publish   version: '2.0.2',
+21 silly publish   gitHead: 'aa16ab0ce46bba53039df8f5f9ce8bb027b5df69',
+21 silly publish   scripts: {} }
+22 verbose getPublishConfig { registry: 'http://repo.ebaotech.com/artifactory/api/npm/npm-all' }
+23 silly mapToRegistry name rainbow-mobile-preview
+24 silly mapToRegistry using default registry
+25 silly mapToRegistry registry http://repo.ebaotech.com/artifactory/api/npm/npm-all
+26 silly mapToRegistry data Result {
+26 silly mapToRegistry   raw: 'rainbow-mobile-preview',
+26 silly mapToRegistry   scope: null,
+26 silly mapToRegistry   escapedName: 'rainbow-mobile-preview',
+26 silly mapToRegistry   name: 'rainbow-mobile-preview',
+26 silly mapToRegistry   rawSpec: '',
+26 silly mapToRegistry   spec: 'latest',
+26 silly mapToRegistry   type: 'tag' }
+27 silly mapToRegistry uri http://repo.ebaotech.com/artifactory/api/npm/npm-all/rainbow-mobile-preview
+28 verbose publish registryBase http://repo.ebaotech.com/artifactory/api/npm/npm-all/
+29 silly publish uploading /Users/tony/.npm/rainbow-mobile-preview/2.0.2/package.tgz
+30 verbose request uri http://repo.ebaotech.com/artifactory/api/npm/npm-all/rainbow-mobile-preview
+31 verbose request always-auth set; sending authorization
+32 info attempt registry request try #1 at 17:53:10
+33 verbose request id c1a11b31fe26ea83
+34 http request PUT http://repo.ebaotech.com/artifactory/api/npm/npm-all/rainbow-mobile-preview
+35 http 403 http://repo.ebaotech.com/artifactory/api/npm/npm-all/rainbow-mobile-preview
+36 verbose headers { date: 'Fri, 02 Feb 2018 09:56:30 GMT',
+36 verbose headers   'content-type': 'application/json',
+36 verbose headers   'transfer-encoding': 'chunked',
+36 verbose headers   connection: 'keep-alive',
+36 verbose headers   server: 'Artifactory/5.4.1',
+36 verbose headers   'x-artifactory-id': 'fc9a023a3a438d25:-9720184:1613c5d8971:-8000' }
+37 verbose request invalidating /Users/tony/.npm/repo.ebaotech.com/artifactory/api/npm/npm-all/rainbow-mobile-preview on PUT
+38 error publish Failed PUT 403
+39 verbose stack Error: forbidden cannot modify pre-existing version: 2.0.2.: artifactory
+39 verbose stack     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+39 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:290:14)
+39 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+39 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:187:22)
+39 verbose stack     at emitTwo (events.js:106:13)
+39 verbose stack     at Request.emit (events.js:191:7)
+39 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1048:10)
+39 verbose stack     at emitOne (events.js:96:13)
+39 verbose stack     at Request.emit (events.js:188:7)
+39 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:969:12)
+40 verbose statusCode 403
+41 verbose pkgid artifactory
+42 verbose cwd /Users/tony/Documents/mobile/demo/node_modules/rainbow-mobile-preview
+43 error Darwin 15.6.0
+44 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "publish"
+45 error node v6.9.3
+46 error npm  v3.10.10
+47 error code E403
+48 error forbidden cannot modify pre-existing version: 2.0.2.: artifactory
+49 error If you need help, you may report this error at:
+49 error     <https://github.com/npm/npm/issues>
+50 verbose exit [ 1, true ]
